@@ -1,0 +1,4 @@
+In logistic regression we can do the classification task really well such as binary classification or multiclass classification.
+
+In this case we are going to train a model to identify or classify the given matrix to identify the number. The matrix represents 
+the pixels and based on that data we will identify the number provided in the image.

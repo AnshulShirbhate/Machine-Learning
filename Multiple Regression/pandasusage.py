@@ -29,7 +29,8 @@ df.replace()
 
 
 
-import pandas as pd import numpy as np
+import pandas as pd 
+import numpy as np
 import matplotlib.pyplot as plt
 # Load dataset (replace 'data.csv' with your dataset) df = pd.read_csv('/content/data.csv')
 # Handling missing values

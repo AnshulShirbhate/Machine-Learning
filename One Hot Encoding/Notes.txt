@@ -1,0 +1,7 @@
+One hot encoding is used to handle the categorical features or non numeric or text features features of the dataset.
+
+One way to do this is to use integer encoding or label encoding. 
+
+The way one hot encoding works is that you create new column for each of the category in the feature with categorical labels 
+and assign binary value of 1 or 0.
+

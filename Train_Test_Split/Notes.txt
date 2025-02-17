@@ -1,0 +1,7 @@
+When training a model sometimes we use the whole dataset to train the model but it is not good practice as the model can become
+overfitted.
+
+To avoid overfitting, we can split the dataset into two parts for training purposes and other part for testing purpose.
+
+The way data is splitted is in the ration of 80:20 or 70:30. On the majority part the model is trained and on the other part 
+the model is tested for accuracy.

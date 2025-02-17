@@ -1,0 +1,19 @@
+/***************MSE********************?
+
+To find the best fit line in a scattered dataset, we need to find the line with the minimum error.
+
+This can be done by using the cost functions in which the mean squared error is the most popular cost function.
+
+MSE can be written as: 1/n * SUM( SQUARE( predicted point - actual point ) )
+
+On a scattered dataset there can be multiple lines that can be drawn, but to find the best fit line we use the MSE.
+The line which has the least MSE is the best fit line.
+
+The problem with MSE is that it does a lot of iteration consuming time and increasing the computation cost.
+
+
+/************Gradient Descent******************/
+
+To solve this problem Gradient Descent comes in place. 
+
+Gradient Descent is an algorithm that finds best fit line for given training data set.

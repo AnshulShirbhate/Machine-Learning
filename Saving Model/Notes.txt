@@ -1,0 +1,17 @@
+To store a model into a file so that we don't need to train a model everytime we can use various methods.
+
+Some of these methods are:
+1. pickle
+2. joblib
+
+
+1. Pickle: With the pickle library of python we can write the model into a binary file and store it and load it whenever we want.
+Example: 
+This code will create a file in the current directory storing the model
+with open('file_name', 'wb') as f:
+    pickle.dump(model, f)
+
+To load the model into the program we can write:
+Example: 
+with open('file_name', 'rb') as f:
+    model = pickle.load(f)
